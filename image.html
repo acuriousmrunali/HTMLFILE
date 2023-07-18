@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0px;
+            margin: 0px;
+            box-sizing: border-box;
+            transition:all .2s liner;
+        }
+        body{
+            background:white;
+        }
+        h1{
+            font-size: medium;
+        }
+
+        .gallery{
+            font-size: medium;
+            text-align: center;
+            padding-top: 100px;
+            
+            display:flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 90%;
+            margin: 0 auto;
+            border-radius: 50px;
+            border: 5px 3px 5px;
+            background-color: #cef1d5;
+        }
+        h1{
+            text-align: center;
+            padding-top:100px ;
+            font-size: 40px;
+            text-shadow: 2px 2px rgb(173, 161, 161);
+            letter-spacing: 10px;
+            word-wrap: wrap;
+            word-spacing: 30px;
+            
+            
+
+
+        }
+        .gallery .image1 {
+            height: 200px;
+            width:400px;
+            margin: 20px;
+            overflow: hidden;
+            border-radius:5px;
+            box-shadow:0 3px 5px #000;
+            
+
+        }
+        .gallery .image-box .image1{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .gallery  .image1:hover{
+            transform: scale(1.2);
+
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <h1> IMAGE GALLERY</h1>
+
+    <div class="gallery">
+        
+        
+        
+            <div class="image1">
+                <img src="/image/gallery/image3.jpg" alt="">
+                
+                
+
+            </div>
+            <div class="image1">
+                <img src="/image/gallery/image2.jpg" alt>
+
+            </div>
+            <div class="image1">
+                <img src="/image/gallery/image3.jpg" alt="">
+            </div>
+
+            <div class="image1">
+                <img src="/image/gallery/image4.jpg" alt="">
+            </div>
+
+            <div class="image1">
+                <img src="/image/gallery/image5.jpg" alt="">
+            </div>
+        
+
+            
+            
+        
+    </div>
+</body>
+</html>
